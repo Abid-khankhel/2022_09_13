@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tuesday</title>
+</head>
+<body>
+    <h1 style="color: red;background-color:aqua;transform:tlr;text-align:center">Tuesday lecture Classes</h1>
+
+
+<h1 id="demo"></h1>
+<h1 id="d"></h1>
+<h1 id="de"></h1>
+<h1 id="dem"></h1>
+
+<script>
+
+
+// declration of the class
+// class person{
+
+    
+
+
+
+// }
+
+// function pen(_name,_color,_price){
+// this.name = _name;
+// this.color = _color;
+// this.price =_price;
+
+// }
+
+// pen.prototype.showPenDetails =function(){
+
+//     return  ' the pen name is ' +  this.name + ' its '+ this.color + ' color and it\'s  price is ' + this.price;
+
+
+// }
+// let obj = new pen(' pinow cristal ', ' blue ',10)
+
+// console.log(obj.showPenDetails())
+
+
+// class pencil {
+
+
+//     constructor(name,color,price){
+
+// this.name = name;
+// this.color = color;
+// this.price = price;
+
+//     }
+
+
+
+//     showPenDetails(){
+
+//         return `the pen name is ${this.name} its  color is ${this.color}and its price is ${this.price}`
+//     }
+// }
+
+// let objpen = new pencil('big','blue',10)
+// console.log(objpen.showPenDetails())
+
+
+// class rectengle{
+
+//     constructor(hight,width,color){
+// this.hight =hight;
+// this.width = width;
+// this.color = color;
+
+//     }
+
+//      show(){
+// return `the rectengle height is ${this.hight} and width is ${this.width} and color is ${this.color} `
+
+
+//      }
+
+// }
+// let obj = new rectengle(30,90,'black')
+// console.log(obj.show())
+
+
+// class person{
+
+// constructor(name,lastname,age,height,width,eyescolor){
+// this.name =name;
+// this.lastname = lastname;
+// this.age = age;
+// this.height = height;
+// this.width = width;
+// this.eyescolor = eyescolor;
+
+// }
+
+//  show(){
+// return `his name${this.name} and his lastname is ${this.lastname} and his age is ${this.age} and his height is ${this.height} and his width id ${this.width}
+// and his eyes color is ${this.eyescolor} `
+
+
+//  }
+
+//  talk(tk){
+
+//     return`i can talk `+tk;
+//  }
+
+// see(){
+
+//     return`i can not see this `
+// }
+
+// walk(){
+
+// return`he can not walk `
+
+// }
+
+// }
+
+// let obj = new person('Ahmad','ali',23,143,33,'red')
+// // console.log(obj.show())
+// // console.log(obj.talk())
+// // console.log(obj.see())
+// // console.log(obj.walk())
+
+// document.getElementById('demo').innerHTML = obj.show();
+// document.getElementById('d').innerHTML = obj.talk('reussion');
+// document.getElementById('de').innerHTML = obj.see();
+// document.getElementById('dem').innerHTML = obj.walk();
+
+
+// class personage{
+
+// constructor(name,year){
+
+
+//     this.name = name;
+//     this.year = year;
+// }
+// age(x){
+
+
+//     return  x - this.year;
+// }
+// }
+
+// let date = new Date();
+// let year = date.getFullYear();
+
+
+// let page = new personage('Israeel', 1965);
+
+
+// document.getElementById('demo').innerHTML = "My name is Israeel " + page.age(year) + "years old.";
+
+// class Car{
+
+
+//     constructor(brand){
+//         this.brand = brand;
+
+
+//     }
+
+
+//     myCarName(){
+
+//         return `my car  name is ${this.brand} `
+//     }
+
+
+// }
+// class model extends Car{
+//     constructor(brand,model){
+
+//         super(brand)
+        
+//         this.model = model;
+
+//     }
+//     showmodel(){
+//         return  this.myCarName() +  `  and its model is ` + this.model;
+//     }
+// }
+
+// // let obj = new Car('BMw')
+// // console.log(obj.myCarName())
+
+// let obj = new model('bmw',2022)
+
+// console.log(obj.showmodel()) 
+
+
+class  Person{
+
+    constructor(name){
+
+        this.name = name;
+
+    }
+    get gpname(){
+        return `the person name is ${this.name}`
+    }
+
+    set spname(pnewwname){
+
+this.name = pnewwname;
+    }
+    age(){
+
+        return `my age is 21`
+    }
+
+    static plname(){
+        return `hi iam static methood` 
+    }
+}
+ 
+let pobj = new Person('israeel khankhel')
+console.log(pobj.gpname)
+pobj.spname = 'israeel'
+console.log(pobj.gpname)
+
+
+
+console.log(pobj.age())
+console.log(Person.plname())
+// class sinp{
+
+//     constructor(student,tables,computers){
+
+// this.student = student;
+// this.tables = tables;
+// this.computers = computers;
+
+//     }
+//     get gsin(){
+//         return  `the stratupistan class include ${this.student} and have ${this.tables} tables and we have ${this.computers} computer`
+//     }
+
+
+// }
+ 
+//  let gis = new sinp('sharif',12,44)
+
+// console.log(gis.gsin)
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
